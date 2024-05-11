@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM EXERCISE</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Lista de tareas</h1>
+    <input type="text" id="taskInput" name="taskInput" />
+    <button
+      class="add-task-btn"
+      type="button"
+      id="addTaskButton"
+      name="addTaskButton"
+    >
+      Agregar Tarea
+    </button>
+    <button
+      class="delete-task-btn"
+      type="button"
+      id="deleteCompletedTaskButton"
+      name="deleteCompletedTaskButton"
+    >
+      Eliminar tareas completadas iterando
+    </button>
+    <button
+      class="delete-task-btn"
+      type="button"
+      id="deleteCompletedTaskButtonByClas"
+      name="deleteCompletedTaskButtonByClas"
+    >
+      Eliminar tareas completadas buscando por el nombre de la clase
+    </button>
+    <ul id="tasks" name="tasks"></ul>
+  </body>
+  <script src="index.js"></script>
+</html>

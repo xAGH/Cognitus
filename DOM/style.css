@@ -1,0 +1,15 @@
+.completed {
+    text-decoration: line-through;
+}
+
+.add-task-btn {
+    background-color: rgb(135, 235, 135);
+}
+
+.delete-task-btn {
+    background-color: rgb(230, 128, 128);
+}
+
+.container {
+    display: flex;
+}
