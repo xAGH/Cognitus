@@ -1,0 +1,18 @@
+Parametros de ruta -> Requeridos
+GET /:id
+GET /1
+GET /2
+GET /2
+GET /1112
+
+Parametros de consulta -> Opcionales
+GET /test?name=Alejo&age=18&city=Armenia&name=Sebas&name=Andres
+
+Datos por cabecera -> Opcional
+X-Data: "{name: 'Alejo', age: 18}"
+
+Datos por body -> Requeridos
+{
+    "name": "Alejo",
+    "age": 19
+}
